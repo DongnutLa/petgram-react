@@ -1,25 +1,24 @@
 {
-  "name": "curso-platzi-react-avanzado",
+  "name": "petgram-by-dongnut",
   "version": "1.0.0",
-  "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
+  "description": "A social network for pets",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
-    "serve:dev": "webpack --mode 'development' && npx serve dist -s",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve:dev": "webpack --mode 'development' && npx serve dist -s"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+    "url": "git+https://github.com/DongnutLa/petgram-react.git"
   },
   "keywords": [],
   "author": "DongnutLa <luahernandezdu@unal.edu.co>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+    "url": "https://github.com/DongnutLa/petgram-react/issues"
   },
-  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+  "homepage": "https://github.com/DongnutLa/petgram-react#readme",
   "devDependencies": {
     "@babel/core": "^7.18.0",
     "@babel/preset-env": "^7.18.0",
@@ -27,13 +26,14 @@
     "babel-loader": "^8.2.5",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
+    "html-webpack-plugin": "^5.5.0",
     "webpack-pwa-manifest": "^4.3.0",
+    "webpack-dev-server": "^4.9.0",
     "workbox-webpack-plugin": "^6.5.3"
   },
   "dependencies": {
     "apollo-boost": "^0.4.9",
     "graphql": "^16.5.0",
-    "html-webpack-plugin": "^5.5.0",
     "intersection-observer": "^0.12.0",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
@@ -43,7 +43,6 @@
     "react-icons": "^4.3.1",
     "react-is": "^18.1.0",
     "react-router-dom": "^6.3.0",
-    "styled-components": "^5.3.5",
-    "webpack-dev-server": "^4.9.0"
+    "styled-components": "^5.3.5"
   }
 }
